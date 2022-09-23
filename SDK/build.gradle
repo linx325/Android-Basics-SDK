@@ -37,4 +37,43 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    
+    //状态栏相关
+    implementation 'com.geyifeng.immersionbar:immersionbar:3.2.2'
+    //XLog日志
+    implementation 'com.elvishew:xlog:1.10.1'
+    //eventbus消息
+    implementation 'org.greenrobot:eventbus:3.3.1'
+
+    //banner图
+    implementation 'com.github.zhpanvip:bannerviewpager:3.5.5'
+    //基础弹框库
+    implementation 'com.github.li-xiaojun:XPopup:2.8.14'
+    //流式布局
+    implementation 'com.github.LillteZheng:FlowHelper:v2.3'
+    //上拉加载下拉刷新--START
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-andx-14'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-andx-14'
+    //上拉加载下拉刷新--END
+
+    //网络访问相关--START
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.3'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'com.alibaba:fastjson:1.2.76'
+    //网络访问相关--END
+
+    //app版本信息
+    implementation 'com.qmuiteam:qmui:1.1.3'
+
+    //视频播放
+    implementation 'com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer:v8.1.8-release-jitpack'
+
+    //地图帮助类库
+    implementation 'com.king.map:maphelper:1.0.0'
+    //高德3D地图--START
+    implementation 'com.amap.api:navi-3dmap:6.7.0_3dmap6.8.0'
+    implementation 'com.amap.api:location:4.9.0'
+    implementation 'com.amap.api:search:7.3.0'
+    //高德3D地图--END
+
 }
