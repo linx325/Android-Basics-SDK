@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    //控件ID直接使用需引入下方插件
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -12,6 +14,9 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
+
+        //（强制项目使用英文的strings）解决AndroidManifest中label引入的是依赖库中的zh-rCN\values-zh-rCN
+//        resConfigs "en"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
