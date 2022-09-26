@@ -36,6 +36,8 @@ object DateUtils {
 
     /**
      * 今天是哪年哪月哪日
+     *
+     * 示例:2022-09-26
      */
     fun getToday(simple: String = DATE_FORMAT_YMD): String {
         return SimpleDateFormat(simple).format(Date(current()))
@@ -43,6 +45,8 @@ object DateUtils {
 
     /**
      * 今天是哪年哪月哪日几点几分几秒
+     *
+     * 示例:2022-09-26 10:17:45
      */
     fun getTodayTime(): String {
         return getToday(DATE_FORMAT_YMD_HMS)
